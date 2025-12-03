@@ -1,13 +1,14 @@
 # Go Web Server Project
 
 A simple Go web server built using the `net/http` package.  
-This project demonstrates basic routing, static file serving, and form handling.
+It handles basic routing, serves static HTML files, and processes form submissions.
 
-## 🚀 Features
-- Serve HTML files using `http.FileServer`
-- Handle routes such as `/` and `/hello`
-- Process form submissions using `/form`
-- Validate HTTP methods and paths
-- Lightweight and beginner-friendly
+## Features
+- Serve HTML files from the `/static` folder  
+- Handle routes like `/` and `/hello`  
+- Process form submissions via `/form`  
+- Lightweight and beginner friendly
 
-## 📁 Project Structure
+## Run the Project
+```bash
+go run main.go
